@@ -1,0 +1,17 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Acme&family=Lora:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Sans:wght@500&family=Poppins:wght@200;300&family=Roboto:wght@100&family=Shadows+Into+Light&display=swap"); */
+
+/* @import url("https://fonts.googleapis.com/css2?family=Acme&family=Lora:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Sans:wght@500&family=Poppins:wght@200;300&family=Roboto:wght@100&family=Shadows+Into+Light&display=swap"); */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Belanosima&display=swap%27); */
+
+/* @import url("https://fonts.googleapis.com/css2?family=Acme&family=Belanosima&family=Lora:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Sans:wght@500&family=Poppins:wght@200;300&family=Roboto:wght@100&family=Shadows+Into+Light&display=swap"); */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  /* font-family: "Poppins", sans-serif; */
+  /* font-family: Museo Sans Cyrl; */
+  font-family: Belanosima;
+}

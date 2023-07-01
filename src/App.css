@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Belanosima&family=Lora:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Sans:wght@500&family=Poppins:wght@200;300&family=Roboto:wght@100&family=Shadows+Into+Light&display=swap");
+
+.App {
+  background-image: linear-gradient(
+    180deg,
+    hsl(0deg 0% 66%) 0%,
+    hsl(344deg 0% 69%) 11%,
+    hsl(344deg 0% 72%) 15%,
+    hsl(344deg 0% 75%) 18%,
+    hsl(344deg 0% 78%) 20%,
+    hsl(344deg 0% 81%) 23%,
+    hsl(344deg 0% 84%) 27%,
+    hsl(344deg 0% 87%) 32%,
+    hsl(344deg 0% 90%) 38%,
+    hsl(344deg 0% 94%) 49%,
+    hsl(344deg 0% 97%) 64%,
+    hsl(0deg 0% 100%) 100%
+  );
+}
