@@ -267,7 +267,7 @@
 
 .skills_container {
   display: grid;
-  grid-template-columns: repeat(4, 0.3fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 1rem;
   margin-left: 10rem;
   margin-right: 3rem;
