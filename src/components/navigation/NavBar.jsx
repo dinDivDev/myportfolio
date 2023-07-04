@@ -10,6 +10,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import { Link } from "react-scroll";
+import resume from "../../resumeFolder/frontEndResume.pdf";
 import Button from "@mui/material/Button";
 import "./navigationHeader.style.css";
 
@@ -47,16 +48,12 @@ function NavBar(props) {
         </Link>
         <br></br>
         <br></br>
-        <Link to="download">
-          <a href="/" download>
+        <Link to={resume} target="_blank">
+          <a href={resume} download="resume.pdf">
             Download resume
           </a>
+          Download here
         </Link>
-        {/* <a href="/" download>
-          <Button sx={{ color: "black", fontWeight: "bolder" }}>
-            Download resume
-          </Button>
-        </a> */}
       </List>
     </Box>
   );
@@ -114,7 +111,8 @@ function NavBar(props) {
                 </Button>
               </a>
             </Link>
-            <a href="/" download>
+
+            <a href={resume} download="resume.pdf">
               <Button sx={{ color: "black", fontWeight: "bolder" }}>
                 Download resume
               </Button>

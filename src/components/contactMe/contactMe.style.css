@@ -46,6 +46,7 @@
 @media screen and (max-width: 844px) {
   .contact-me__sub-form {
     width: 90%;
+    padding: 4rem;
   }
 }
 
