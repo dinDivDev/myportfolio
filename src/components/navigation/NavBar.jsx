@@ -6,6 +6,8 @@ import Divider from "@mui/material/Divider";
 import Drawer from "@mui/material/Drawer";
 import IconButton from "@mui/material/IconButton";
 import List from "@mui/material/List";
+import ListItem from "@mui/material/ListItem";
+import ListItemButton from "@mui/material/ListItemButton";
 import MenuIcon from "@mui/icons-material/Menu";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
@@ -43,16 +45,22 @@ function NavBar(props) {
       </Typography>
       <Divider />
       <List>
-        <Link to="contact_me">
-          <a href="/">Contact me</a>
-        </Link>
-        <br></br>
-        <br></br>
-        <Link to={resume} target="_blank">
-          <a href={resume} download="resume.pdf">
-            Download resume
-          </a>
-        </Link>
+        <ListItem disablePadding>
+          <ListItemButton
+            sx={{
+              textAlign: "center",
+              display: "flex",
+              flexDirection: "column",
+            }}
+          >
+            <Link to="contact_me">
+              <a href="/">Contact me</a>
+            </Link>
+            <a href={resume} download>
+              <Button sx={{ color: "black" }}>Download resume</Button>
+            </a>
+          </ListItemButton>
+        </ListItem>
       </List>
     </Box>
   );
@@ -111,11 +119,13 @@ function NavBar(props) {
               </a>
             </Link>
 
-            <a href={resume} download="resume.pdf">
+            {/* <Link> */}
+            <a href={resume} download>
               <Button sx={{ color: "black", fontWeight: "bolder" }}>
                 Download resume
               </Button>
             </a>
+            {/* </Link> */}
           </Box>
         </Toolbar>
       </AppBar>
@@ -138,6 +148,9 @@ function NavBar(props) {
         >
           {drawer}
         </Drawer>
+      </Box>
+      <Box component="main" sx={{ p: 3 }}>
+        <Toolbar />
       </Box>
     </Box>
   );
