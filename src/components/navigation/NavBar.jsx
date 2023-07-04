@@ -48,11 +48,9 @@ function NavBar(props) {
         </Link>
         <br></br>
         <br></br>
-        <Link>
+        <Link to={resume} target="_blank">
           <a href={resume} download="resume.pdf">
-            <Button sx={{ color: "black", fontWeight: "bolder" }}>
-              Download resume
-            </Button>
+            Download resume
           </a>
         </Link>
       </List>
