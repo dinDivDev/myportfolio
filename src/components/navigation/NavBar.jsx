@@ -12,7 +12,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import { Link } from "react-scroll";
-import resume from "../../resumeFolder/frontEndResume.pdf";
+import resume from "../../resumeFolder/AidinaDinDivDev.pdf";
 import Button from "@mui/material/Button";
 import "./navigationHeader.style.css";
 
